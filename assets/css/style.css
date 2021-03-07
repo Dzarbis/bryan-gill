@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #585858;
 }
 
@@ -115,7 +115,7 @@ div p {
     font-size: x-large;
     bottom: 30px;
     left: 150px;
-    background-color: #0000ad;
+    background-color: #585858;
     padding: 3px;
     border-radius: 10px;
 }
@@ -124,6 +124,7 @@ div p {
     width: 1000px;
     height: 500px;
     opacity: 0.5;
+    border: solid whitesmoke 3px;
 }
 
 .work-link:hover {

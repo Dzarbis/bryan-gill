@@ -1,0 +1,12 @@
+body {
+    background-image: url(../images/hero.gif);
+    font-family: monospace;
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+    text-shadow: -1px -1px 0 #ff8800, 1px -1px 0 #ff8800, -1px 1px 0 #ff8800, 1px 1px 0 #ff8800;
+}
+
+body a {
+    text-decoration: none;
+}
