@@ -104,4 +104,30 @@ div p {
     text-align: center;
 }
 
+.work-container {
+    position: relative;
+}
+
+.workbox {
+    color: #ff8800;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+    position: absolute;
+    font-size: x-large;
+    bottom: 30px;
+    left: 150px;
+    background-color: #0000ad;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.work-link {
+    width: 1000px;
+    height: 500px;
+    opacity: 0.5;
+}
+
+.work-link:hover {
+    opacity: 1;
+}
+
 
