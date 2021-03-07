@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    background-color: #585858;
+}
+
+header {
+    padding: 30px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    color: #00003d;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: 80%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    position: relative;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #ff8800;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 20px 15px;
+    font-size: x-large;
+}
+
+header nav ul li a:hover {
+    background-color: #0000ad;
+    border-radius: 10px 5px;
+    line-height: 1.5;
+}
+
+div h1 {
+    font-size: 50px;
+    padding-right: 10px;
+    border-right: 5px solid black;
+    text-align: right;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+div p {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    font-size: larger;
+    padding-left: 100px;
+    text-shadow: -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff, 0.5px 0.5px 0 #fff;
+}
+
+.hero {
+    background-image: url(../images/hero.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+    color: #ff8800;
+    text-align: end;
+    padding-top: 200px;
+    font-size: 45px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.main {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+}
+
+
